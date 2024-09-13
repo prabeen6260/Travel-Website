@@ -1,0 +1,48 @@
+html,body{
+    padding: 1%;
+    margin: 0px;
+    height: 100%;
+    font-size: 24px;
+}
+
+h1 a {
+    text-decoration: none;
+    
+}
+.navBox img{
+    height: 3rem;
+}
+.navBox{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+nav{
+    width: 70%;
+}
+
+.box{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    font-size: 30px;
+    list-style: none;
+}
+.box li a {
+    text-decoration: none;
+}
+.one {
+    display: flex;
+    align-items: center;
+    max-width: 100%; 
+    margin: 0 auto; 
+}
+
+.one img {
+    height: 30vh ;
+    width: 25%;
+    margin: 10px;}
+
+.logo{
+    height: 3rem;
+}

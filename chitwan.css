@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+h1, h2 {
+    color: #2c3e50;
+}
+h1 {
+    text-align: center;
+}
+p {
+    margin-bottom: 1.5em;
+}
+ul {
+    padding-left: 20px;
+}
+li {
+    margin-bottom: 10px;
+}
+.section-title {
+    font-size: 1.4em;
+    margin-top: 1.5em;
+    color: #2980b9;
+}
+.conclusion {
+    font-style: italic;
+    margin-top: 2em;
+    background-color: #ecf0f1;
+    padding: 15px;
+    border-radius: 8px;
+}
+img{
+    height: 30vh; 
+    width: 30%;
+    display: block; 
+}
+.imgContainer{
+    display: flex;
+    justify-content: space-evenly;
+}
