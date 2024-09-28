@@ -45,8 +45,38 @@ img{
     width: 30%;
     display: block; 
 }
+
 .imgContainer{
-    display: flex;
-    justify-content: space-evenly;
+    height: 270px;
+    width: 40%;
+    overflow-x: scroll;
 }
-    
+
+
+.imgContainer img{
+    width: 90%;
+    height: 90%;
+    padding-bottom: 20px;
+    margin: 1px;
+
+}
+.borderImg{
+    border: 10px solid;
+    padding: 15px;
+    border-image: url(images1/border.png) 80 round; 
+}
+.backg{
+    background-image: url(images1/muktinath.jpg);
+    height: 300px;
+    width: 500px;
+    background-size: cover;
+    border-radius: 10%;
+    padding: 5px;
+    margin: 5px;
+}
+.container1{
+    display: flex;
+}
+.container1 p{
+    width: 60%;
+}

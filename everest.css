@@ -50,6 +50,17 @@ li {
     border-radius: 8px;
     margin-bottom: 1.5em;
 }
+.tips > ul > li {
+    color: #2e8b57; /* Forest green color */
+    font-weight: bold;
+}
+
+/* Adjacent sibling selector: Style the 'p' element directly after the 'ul' */
+.tips ul + p {
+    color: #d2691e; /* Chocolate brown color */
+    font-style: italic;
+}
+
 img{
     height: 30vh; 
     width: 30%;

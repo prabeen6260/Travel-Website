@@ -1,35 +1,75 @@
-html,body{
-    padding: 1%;
-    margin: 0px;
-    height: 100%;
-    font-size: 24px;
+body{
+    padding: 0%;
+    margin: 0%;
+    font-size: 20px;
+    background-color: rgb(218, 230, 241);
 }
-
-h1 a {
+header a{
     text-decoration: none;
-    
-}
-.navBox img{
-    height: 3rem;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
 }
 .navBox{
     display: flex;
+    font-size: 30px;
     justify-content: space-between;
-    width: 100%;
+    background: linear-gradient(rgb(4, 30, 107),rgb(218, 230, 241));
+    padding-left: 1% ;
 }
 nav{
-    width: 70%;
+    width: 80%;
 }
 
 .box{
     display: flex;
-    width: 100%;
-    justify-content: space-evenly;
-    font-size: 30px;
+    flex-direction: row;
     list-style: none;
+    justify-content: space-around;
 }
-.box li a {
-    text-decoration: none;
+.box li :hover{
+    box-shadow: 2px 2px 5px 2px white;
+    padding: 10px 10px 10px 10px;
+    border-radius: 5%;
+}
+
+.box li:nth-child(2n-1) a{
+    color: rgb(236, 140, 133);
+}
+
+.box li:first-child a{
+    color: aqua;
+}
+
+.box li:nth-child(2n) a{
+    color: brown;
+}
+.box li:last-child a{
+    color: blueviolet;
+}
+.box li a:active {
+    color: rgb(233, 17, 17);
+}
+
+.pageName{
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+main{
+    margin: 1%;
+}
+.logoImg{
+    height: 3rem
+}
+.travel h1{
+    font-size: 30px;
+}
+.about p::first-letter{
+    font-size: 24px;
+    color: rgb(243, 25, 25);
+}
+.about p::first-line{
+    font-style: italic;
 }
 .one {
     display: flex;
@@ -45,4 +85,20 @@ nav{
 
 .logo{
     height: 3rem;
+}
+.pdf a[href$=".pdf"]{
+    background-image: url(images/pdf.png) ;
+    padding-left: 20px;
+    background-size: 20px 30px;
+    background-position: left center;
+    background-repeat: no-repeat;
+    text-decoration: none;
+}
+.pdf a[href$=".docx"]{
+    background-image: url(images/docs.png) ;
+    padding-left: 20px;
+    background-size: 20px 30px;
+    background-position: left center;
+    background-repeat: no-repeat;
+    text-decoration: none;
 }
