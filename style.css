@@ -15,6 +15,8 @@ header a{
     justify-content: space-between;
     background: linear-gradient(rgb(4, 30, 107),rgb(218, 230, 241));
     padding-left: 1% ;
+    padding-bottom: 20px;
+    padding-top: 10px;
 }
 nav{
     width: 80%;
@@ -26,6 +28,14 @@ nav{
     list-style: none;
     justify-content: space-around;
 }
+
+.pageName a:hover{
+    color: brown;
+}
+.box li a{
+    padding: 10px 10px 10px 10px;
+    border-radius: 5%;
+}
 .box li :hover{
     box-shadow: 2px 2px 5px 2px white;
     padding: 10px 10px 10px 10px;
@@ -34,17 +44,21 @@ nav{
 
 .box li:nth-child(2n-1) a{
     color: rgb(236, 140, 133);
+    background-color: rgb(163, 236, 236);
 }
 
 .box li:first-child a{
     color: aqua;
+    background-color: rgb(68, 55, 55);
 }
 
 .box li:nth-child(2n) a{
     color: brown;
+    background-color: rgb(167, 169, 223);
 }
 .box li:last-child a{
     color: blueviolet;
+    background-color: rgb(229, 200, 237);
 }
 .box li a:active {
     color: rgb(233, 17, 17);
@@ -64,10 +78,12 @@ main{
 .travel h1{
     font-size: 30px;
 }
+
 .about p::first-letter{
-    font-size: 24px;
+    font-size: 40px;
     color: rgb(243, 25, 25);
 }
+
 .about p::first-line{
     font-style: italic;
 }
@@ -101,4 +117,7 @@ main{
     background-position: left center;
     background-repeat: no-repeat;
     text-decoration: none;
+}
+.blog ul li a:visited{
+    color: green !important;
 }

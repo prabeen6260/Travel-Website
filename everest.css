@@ -50,14 +50,13 @@ li {
     border-radius: 8px;
     margin-bottom: 1.5em;
 }
-.tips > ul > li {
-    color: #2e8b57; /* Forest green color */
+.tips > ul > li { /* child selector  */
+    color: #2e8b57; 
     font-weight: bold;
 }
 
-/* Adjacent sibling selector: Style the 'p' element directly after the 'ul' */
-.tips ul + p {
-    color: #d2691e; /* Chocolate brown color */
+.tips ul + p {  /* adjacent sibling selector */
+    color: #d2691e; 
     font-style: italic;
 }
 
